@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  
+  .container {
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #06647a;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #f2f2f2;
+    border-radius: 25px;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+    margin: 20px 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #eeeeee;
+    background-color: #007bff;
+  }
+  
+  .input-group {
+    display: grid;
+    gap: 5px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 15px;
+    margin: 0px 0px;
+    background-color: #940598;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  button:hover {
+    background-color:#000000;
+    color: #670773;
+  }
+  
+  /* Estilos para el contenedor de los datos mostrados */
+  #datosMostrados {
+    max-width: 350px;
+    margin: 20px auto; /* Centrar horizontalmente */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar texto horizontalmente */
+    background-color: #000000;
+  }
+/* Estilos para cada conjunto de datos */
+.datos-item {
+  margin-bottom: 15px;
+  border-left: 3px solid #007bff;
+  padding-left: 10px;
+  background-color: #1f0023;
+  color: #eeeeee;
+}
+
+.datos-item p {
+  margin: 5px 0;
+}
+
+/* Estilos para el texto del nombre */
+.nombre {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilos para el texto del mensaje */
+.mensaje {
+  color: #666;
+}
+
+h3{
+  color: #ccc;
+}

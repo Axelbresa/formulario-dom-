@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario Bonito</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <form>
+    <h2>Formulario</h2>
+    <div class="input-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" >
+    </div>
+    <div class="input-group">
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" ></textarea>
+    </div>
+    <button type="submit" onclick="enviarDatos(event)">Enviar</button>
+  </form>
+</div>
+
+<div class="">
+    <h3>Obtener datos del formulario</h3>
+    <button onclick="traerDatos()">Obtener datos</button>
+</div>
+
+<div id="datosMostrados">
+    <h3>Lista de datos</h3>
+</div> <!-- Contenedor para mostrar los datos -->
+
+<script src="datos.js"></script>
+</body>
+</html>
